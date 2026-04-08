@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px;
+  background-color: #f4f6f8;
+}
+
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 900px;
+  margin: auto;
+}
+
+fieldset {
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+legend {
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input,
+select,
+textarea {
+  padding: 8px;
+  margin-top: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.inline {
+  width: auto;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}

@@ -1,0 +1,133 @@
+/* ============================= */
+/* RESET */
+/* ============================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ============================= */
+/* BODY */
+/* ============================= */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ============================= */
+/* HEADER */
+/* MOBILE FIRST */
+/* ============================= */
+
+header {
+  background-color: #2f3542;
+
+  color: white;
+
+  padding: 15px;
+
+  text-align: center;
+}
+
+/* Menu em coluna (celular) */
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  display: block;
+
+  color: white;
+
+  text-decoration: none;
+
+  padding: 8px;
+}
+
+/* ============================= */
+/* HERO */
+/* ============================= */
+
+.hero {
+  background-color: #70a1ff;
+
+  color: white;
+
+  padding: 30px 15px;
+
+  text-align: center;
+}
+
+.hero button {
+  margin-top: 15px;
+
+  padding: 10px;
+
+  border: none;
+
+  background-color: white;
+
+  color: #2f3542;
+
+  cursor: pointer;
+}
+
+/* ============================= */
+/* PRODUTOS */
+/* MOBILE: 1 coluna */
+/* ============================= */
+
+.produtos {
+  padding: 20px;
+}
+
+.grid-produtos {
+  display: grid;
+
+  grid-template-columns: 1fr;
+
+  gap: 15px;
+}
+
+/* Card */
+
+.card {
+  background-color: #f1f2f6;
+
+  padding: 15px;
+
+  border-radius: 8px;
+}
+
+/* Botão */
+
+.card button {
+  margin-top: 10px;
+
+  padding: 8px;
+
+  border: none;
+
+  background-color: #3742fa;
+
+  color: white;
+
+  cursor: pointer;
+}
+
+/* ============================= */
+/* FOOTER */
+/* ============================= */
+
+footer {
+  background-color: #2f3542;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 15px;
+}

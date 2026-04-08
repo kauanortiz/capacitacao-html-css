@@ -1,0 +1,10 @@
+Faça a atividade da aula 8 nesta pasta
+
+Na página da atividade anterior
+
+Torne a página responsiva.
+
+Não precisa utilizar a prática do Mobile
+First
+
+Faça o commit e push

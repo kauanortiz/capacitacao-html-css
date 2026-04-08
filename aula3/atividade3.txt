@@ -1,0 +1,7 @@
+Faça a atividade da aula 3 nesta pasta
+
+Na página “sobre mim“ das atividades anteriores
+
+Altere a estilização feita utilizando os seletores apropriados
+
+Faça o commit e push

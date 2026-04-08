@@ -1,0 +1,65 @@
+/* ============================= */
+/* TABLET */
+/* ============================= */
+
+@media (min-width: 768px) {
+  /* HEADER vira linha */
+
+  header {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 20px 40px;
+  }
+
+  nav {
+    display: flex;
+
+    gap: 20px;
+
+    margin-top: 0;
+  }
+
+  nav a {
+    display: inline;
+  }
+
+  /* GRID: 2 colunas */
+
+  .grid-produtos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ============================= */
+/* DESKTOP */
+/* ============================= */
+
+@media (min-width: 1024px) {
+  /* HERO maior */
+
+  .hero {
+    padding: 60px;
+  }
+
+  /* GRID: 3 colunas */
+
+  .grid-produtos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ============================= */
+/* TELAS GRANDES */
+/* ============================= */
+
+@media (min-width: 1280px) {
+  /* GRID: 4 colunas */
+
+  .grid-produtos {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

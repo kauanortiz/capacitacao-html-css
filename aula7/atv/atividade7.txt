@@ -1,0 +1,20 @@
+Faça a atividade da aula 7 nesta pasta
+
+No diretório desta atividade
+
+Crie uma página com:
+
+    Cabeçalho
+    Seção de produtos (mínimo 3 produtos)
+
+Utilize FLEXBOX no cabeçalho
+
+O cabeçalho deverá ter:
+
+    Logo
+    Componente de navegação
+    Botão
+
+Utilize GRID LAYOUT na seção de produtos
+
+Faça o commit e push

@@ -1,0 +1,9 @@
+Faça a atividade da aula 4 nesta pasta
+
+No diretório desta atividade
+
+Crie uma nova página usando todas as tags de html semântico
+
+Não é necessário criar uma página complexa, apenas utilize as tags
+
+Faça o commit e push

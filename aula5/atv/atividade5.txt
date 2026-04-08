@@ -1,0 +1,9 @@
+Faça a atividade da aula 5 nesta pasta
+
+No diretório desta atividade
+
+Crie uma tabela completa
+
+Crie um formulário de cadastro de aluno, utilizando o máximo de inputs e atributos
+
+Faça o commit e push

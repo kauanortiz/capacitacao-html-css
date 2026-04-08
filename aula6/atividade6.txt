@@ -1,0 +1,18 @@
+Faça a atividade da aula 6 nesta pasta
+
+No diretório desta atividade
+
+Crie uma página com:
+
+    Cabeçalho
+    Conteúdo principal (3 seções)
+    Barra de navegação
+    Footer
+
+Utilizar HTML semântico
+
+Cada caixa deve conter uma borda de cada cor
+
+Estilizar utilizando as propriedades do box model
+
+Faça o commit e push

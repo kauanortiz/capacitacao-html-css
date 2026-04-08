@@ -1,0 +1,7 @@
+Faça a atividade da aula 2 nesta pasta
+
+Na página“sobre mim” feito na atividade anterior
+
+Estilize esta página com CSS
+
+Faça o commit e push

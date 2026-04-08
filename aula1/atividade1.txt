@@ -1,0 +1,16 @@
+Faça a atividade da aula 1 nesta pasta
+
+No seguinte Repositório, clone e vá em sua branch
+
+Crie uma página “sobre mim”
+
+Deverá haver:
+
+    foto do participante
+    Um texto contando um pouco sobre ele e porque escolheuestudar ciência da computação - utilize tags de âncora eno mínimo outras 7 tags.
+
+Adicione algum tipo de lista na página
+
+Adicione um vídeo por último
+
+Faça o commit e push

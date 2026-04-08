@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário HTML Completo - Exemplo</title>
+
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+<body>
+
+    <h1>📝 Formulário HTML Completo</h1>
+
+    <form action="#" method="post" autocomplete="on">
+
+        <!-- ============================= -->
+        <!-- INFORMAÇÕES PESSOAIS -->
+        <!-- ============================= -->
+
+        <fieldset>
+
+            <legend>👤 Informações Pessoais</legend>
+
+            <label for="nome">
+                Nome completo:
+            </label>
+
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required minlength="3"
+                maxlength="100">
+
+            <label for="email">
+                Email:
+            </label>
+
+            <input type="email" id="email" name="email" placeholder="email@exemplo.com" required>
+
+            <label for="senha">
+                Senha:
+            </label>
+
+            <input type="password" id="senha" name="senha" required minlength="6">
+
+            <label for="telefone">
+                Telefone:
+            </label>
+
+            <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000"
+                pattern="\(\d{2}\) \d{5}-\d{4}">
+
+            <label for="idade">
+                Idade:
+            </label>
+
+            <input type="number" id="idade" name="idade" min="0" max="120" step="1">
+
+            <label for="nascimento">
+                Data de nascimento:
+            </label>
+
+            <input type="date" id="nascimento" name="nascimento">
+
+        </fieldset>
+
+        <!-- ============================= -->
+        <!-- PREFERÊNCIAS -->
+        <!-- ============================= -->
+
+        <fieldset>
+
+            <legend>⚙️ Preferências</legend>
+
+            <label for="cor">
+                Cor favorita:
+            </label>
+
+            <input type="color" id="cor" name="cor">
+
+            <label for="nivel">
+                Nível de experiência:
+            </label>
+
+            <input type="range" id="nivel" name="nivel" min="0" max="10" value="5"
+                oninput="saidaNivel.value = nivel.value">
+
+            <output id="saidaNivel">
+                5
+            </output>
+
+            <label>
+                Turno preferido:
+            </label>
+
+            <label>
+                <input type="radio" name="turno" value="manha" class="inline">
+                Manhã
+            </label>
+
+            <label>
+                <input type="radio" name="turno" value="tarde" class="inline">
+                Tarde
+            </label>
+
+            <label>
+                <input type="radio" name="turno" value="noite" class="inline">
+                Noite
+            </label>
+
+            <label>
+                Tecnologias que conhece:
+            </label>
+
+            <label>
+                <input type="checkbox" name="tech" value="html" class="inline">
+                HTML
+            </label>
+
+            <label>
+                <input type="checkbox" name="tech" value="css" class="inline">
+                CSS
+            </label>
+
+            <label>
+                <input type="checkbox" name="tech" value="javascript" class="inline">
+                JavaScript
+            </label>
+
+            <label>
+                <input type="checkbox" name="tech" value="git" class="inline">
+                Git
+            </label>
+
+        </fieldset>
+
+        <!-- ============================= -->
+        <!-- SELEÇÕES -->
+        <!-- ============================= -->
+
+        <fieldset>
+
+            <legend>📋 Seleções</legend>
+
+            <label for="cidade">
+                Cidade:
+            </label>
+
+            <input list="cidades" id="cidade" name="cidade" placeholder="Digite ou selecione">
+
+            <datalist id="cidades">
+
+                <option value="São Paulo">
+                <option value="Rio de Janeiro">
+                <option value="Curitiba">
+                <option value="Londrina">
+                <option value="Maringá">
+
+            </datalist>
+
+            <label for="estado">
+                Estado:
+            </label>
+
+            <select id="estado" name="estado">
+
+                <option value="">
+                    Selecione
+                </option>
+
+                <option value="PR">
+                    Paraná
+                </option>
+
+                <option value="SP">
+                    São Paulo
+                </option>
+
+                <option value="SC">
+                    Santa Catarina
+                </option>
+
+            </select>
+
+            <label for="linguagem">
+                Linguagem favorita:
+            </label>
+
+            <select id="linguagem" name="linguagem" multiple>
+
+                <option>
+                    JavaScript
+                </option>
+
+                <option>
+                    Python
+                </option>
+
+                <option>
+                    Java
+                </option>
+
+                <option>
+                    C#
+                </option>
+
+            </select>
+
+        </fieldset>
+
+        <!-- ============================= -->
+        <!-- ARQUIVOS -->
+        <!-- ============================= -->
+
+        <fieldset>
+
+            <legend>📎 Upload</legend>
+
+            <label for="arquivo">
+                Enviar arquivo:
+            </label>
+
+            <input type="file" id="arquivo" name="arquivo" multiple accept=".pdf,.jpg,.png">
+
+            <label for="avatar">
+                Foto de perfil:
+            </label>
+
+            <input type="file" id="avatar" name="avatar" accept="image/*">
+
+        </fieldset>
+
+        <!-- ============================= -->
+        <!-- TEXTO LONGO -->
+        <!-- ============================= -->
+
+        <fieldset>
+
+            <legend>📝 Observações</legend>
+
+            <label for="comentarios">
+                Comentários:
+            </label>
+
+            <textarea id="comentarios" name="comentarios" rows="5" placeholder="Digite suas observações..."
+                maxlength="500"></textarea>
+
+        </fieldset>
+
+        <!-- ============================= -->
+        <!-- CAMPOS ESPECIAIS -->
+        <!-- ============================= -->
+
+        <fieldset>
+
+            <legend>🔒 Campos especiais</legend>
+
+            <label for="codigo">
+                Código (readonly):
+            </label>
+
+            <input type="text" id="codigo" value="12345" readonly>
+
+            <label for="campo-desabilitado">
+                Campo desabilitado:
+            </label>
+
+            <input type="text" id="campo-desabilitado" value="Não pode editar" disabled>
+
+            <label for="progresso">
+                Progresso:
+            </label>
+
+            <progress value="70" max="100"></progress>
+
+            <br><br>
+
+            <label for="medidor">
+                Nível atual:
+            </label>
+
+            <meter value="0.7" min="0" max="1">
+            </meter>
+
+        </fieldset>
+
+        <!-- ============================= -->
+        <!-- BOTÕES -->
+        <!-- ============================= -->
+
+        <button type="submit">
+            Enviar formulário
+        </button>
+
+        <button type="reset">
+            Limpar formulário
+        </button>
+
+    </form>
+
+</body>
+
+</html>
