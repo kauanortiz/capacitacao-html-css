@@ -8,10 +8,18 @@ h1{
     font-size: 50px;
 }
 
+.paragrafo{
+    background-color: rgb(23, 63, 15);
+}
+
 p{
     color:aliceblue;
     font-size: 20px;
     text-align: justify;
+}
+
+#p1::first-letter{
+    font-size: 30px;
 }
 
 h3{
